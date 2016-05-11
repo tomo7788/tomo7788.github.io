@@ -229,9 +229,7 @@ paginate: 2
 # system variables, do not change unless you knew what's it does.
 paginate_path: page/:num
 highlighter: rouge
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+markdown: kramdown
 
 defaults:
   - scope:

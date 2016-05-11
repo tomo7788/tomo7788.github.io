@@ -11,7 +11,7 @@ title                    : "Site Title"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
-url                      : "http://tomo7788.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -204,45 +204,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-  name: xz
-  avatar:
-  profile:
-  
-  socials:
-    facebook:
-    twitter: 
-    google-plus:
-    github: 
-    stack-overflow: 
-    instagram:
-    pinterest:
-    steam: 
-license: MIT License
-
-
-# theme variables, change this to make site looks best.
-baseurl: "/works"
-paginate: 2
-
-
-# system variables, do not change unless you knew what's it does.
-paginate_path: page/:num
-highlighter: rouge
-markdown: kramdown
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-sass:
-  sass_dir: _sass
-  style: compressed

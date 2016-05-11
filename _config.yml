@@ -204,7 +204,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-=======
+
   name: xz
   avatar:
   profile:

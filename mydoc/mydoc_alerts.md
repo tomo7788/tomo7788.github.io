@@ -13,13 +13,13 @@ Alerts are little warnings, info, or other messages that you have called out in 
 
 ## Alerts
 
-You can insert an alert by using any of the following code.
+Takto das alert okno
 
 ```
 {%raw%}{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}{% endraw%}
 ```
 
-Here's the result: 
+Vysledok: 
 
 {% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
 
@@ -35,7 +35,7 @@ Here's the result:
 
 ## Types of alerts available
 
-There are four types of alerts you can leverage: 
+AHA toot: 
 
 * note.html
 * tip.html
@@ -44,7 +44,7 @@ There are four types of alerts you can leverage:
 
 They function the same except they have a different color, icon, and alert word. You include the different types by selecting the include template you want. Here are samples of each alert:
 
-{% include note.html content="This is my note." %}
+{% include note.html content="This is mprdiiiime." %}
 
 {% include tip.html content="This is my tip." %}
 
